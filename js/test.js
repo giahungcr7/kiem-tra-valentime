@@ -2,7 +2,7 @@
 
 
 function check(a){
-    if(a!=4){
+    if(a!=4 && a!=0){
         do{
             var d = a%10;
             console.log("d",d);
